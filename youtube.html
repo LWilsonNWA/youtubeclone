@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search1.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!--Put poistion absolute inside position relative-->
+        <button class="voicesearch-button">
+          <img class="voicesearch-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-app-container">
+          <img class="youtubeapp-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Youtube Apps</div>
+        </div>
+        
+        <div class="notification-icon-container">
+          <div class="notification-icon-container">
+            <img class="notification-icon" src="icons/notifications.svg">
+            <div class="tooltip">Notifications</div>
+          </div>
+          <div class="notification-count">3</div>
+        </div>
+        <img class="current-user-picture" src="channel-pic/unnamed.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+    <section class="video-grid">
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq731.avif">
+          <div class="video-time">15:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/unnamed8.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How "Super" is The PSA Super SASS
+            </p>
+            <p class="video-author">
+              Micah Mayfield
+            </p>
+            <p class="video-stats">
+              123K views &#183; 3 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq729.avif">
+          <div class="video-time">21:57</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channel78_profile.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Amusement Park Airsoft
+            </p>
+            <p class="video-author">
+              Airsoft Alfonse
+            </p>
+            <p class="video-stats">
+              1.1M views &#183; 6 months ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq728.avif">
+          <div class="video-time">10:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/unnamed4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Palmetto State Armory at Shot Show 2025
+            </p>
+            <p class="video-author">
+              Fit'n Fire
+            </p>
+            <p class="video-stats">
+              57K views &#183; 18 hours ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq724.avif">
+          <div class="video-time">19:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channels9_profile.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              M4 Mac Mini After 3 Weeks: It's Too Good!
+            </p>
+            <p class="video-author">
+              Terren Rule
+            </p>
+            <p class="video-stats">
+              66K views &#183; 1 month ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq726.avif">
+          <div class="video-time">13:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/unnamed999.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Poor Man's MP7 - Built For Under $1,000
+            </p>
+            <p class="video-author">
+              Brandon Herrera &#10003;
+            </p>
+            <p class="video-stats">
+              1.4M views &#183; 5 months ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq727.avif">
+          <div class="video-time">37:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/unnamed8.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Holosun Thermal/Red Dot Hybrid | A Revolutionary Optic?
+            </p>
+            <p class="video-author">
+              Micah Mayfield &#10003;
+            </p>
+            <p class="video-stats">
+              668K views &#183; 9 months ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq725.avif">
+          <div class="video-time">2:38</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channel7_profile.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              WARFARE Official Trailer (2025) Iraq War Movie 4K UHD
+            </p>
+            <p class="video-author">
+              MoviesGasm.com
+            </p>
+            <p class="video-stats">
+              875K views &#183; 1 month ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channel-2.jpeg">
+          </div>
+          <div class="video-info">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="video-author">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views &#183; 4 years ago
+          </p>
+          </div>
+        </div>
+  
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq720.avif">
+          <div class="video-time">15:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channels4_profile.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Can MY Drones Catch Garand Thumb?
+            </p>
+            <p class="video-author">
+              American Outlaw
+            </p>
+            <p class="video-stats">
+              126K views &#183; 5 months ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq721.avif">
+          <div class="video-time">26:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channels5_profile">
+          </div>
+          <div class="video-info">
+          <p class="video-title">
+            Every Time I score, the Defender Gets Older!
+          </p>
+          <p class="video-author">
+            Jesser
+          </p>
+          <p class="video-stats">
+            4.3M views &#183; 9 days ago
+          </p>
+          </div>
+        </div>
+  
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq722.avif">
+          <div class="video-time">24:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channels5_profile">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              World's Greatest Dunk Contest vs Dwight Howard!
+            </p>
+            <p class="video-author">
+              Jesser
+            </p>
+            <p class="video-stats">
+              2.9M views &#183; 1 month ago
+            </p>
+          </div>
+          
+          
+        </div>
+      </div>
+  
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/hq723.avif">
+          <div class="video-time">13:41</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" src="channel-pic/channels6_profile">
+          </div>
+          <div class="video-info">
+          <p class="video-title">
+            The Holosun IRIS is finally here
+          </p>
+          <p class="video-author">
+            Hop
+          </p>
+          <p class="video-stats">
+            107K views &#183; 4 days ago
+          </p>
+          </div>
+        </div>
+  
+      </div>
+  
+    </section>
+  </main>
+  </body>
+</html>
